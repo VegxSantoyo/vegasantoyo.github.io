@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La más linda del condado</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #D4A5FF;
+        }
+        .kisses {
+            font-size: 50px; /* Ajusta el tamaño del corazón */
+            animation: kiss 1s infinite;
+        }
+        @keyframes kiss {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-50px);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+        }
+        h1, h2, p {
+            color: #E91E63; 
+        }
+        p {
+            color: #7B1B1B;
+        }
+    </style>
+</head>
+<body>
+    <h1>Obvio eres tú María </h1>
+    <h2>Dahh</h2>
+
+    <p>
+        Claramente no puede existir una princesa más hermosa que tú, es imposible, pase el tiempo que pase eres y seguirás siendo la chica más hermosa del universo.
+    </p>
+
+    <img src="fotoDiana.jpg" width="600" height="400" align="left"/>
+
+    <!-- Aquí se añade el corazón que lanza besos -->
+    <div class="kisses">
+     ❤️
+    </div>
+</body>
+</html>
